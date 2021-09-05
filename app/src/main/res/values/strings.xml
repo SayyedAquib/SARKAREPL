@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SEPL</string>
+    <string name="todo">todo</string>
+    <string name="home">HOME</string>
+    <string name="who_we_are">WHO WE ARE</string>
+    <string name="oxygen_plant">OXYGEN PLANT</string>
+    <string name="medical_stuff">INHOUSE CARE</string>
+    <string name="product_services"><![CDATA[PRODUCT & SERVICES]]></string>
+    <string name="clients">CLIENTS</string>
+    <string name="careers">CAREERS</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="health_care_engineering_services"><![CDATA[HEALTH CARE & ENGINEERING SERVICES]]></string>
+    <string name="types_of_services">TYPES OF SERVICES</string>
+    <string name="health_care">HEALTH CARE</string>
+    <string name="oil_and_gas">OIL AND GAS</string>
+    <string name="telecom">TELECOM</string>
+    <string name="indian_railways">INDIAN RAILWAYS</string>
+    <string name="sepl_it_service">SEPL IT SERVICE</string>
+    <string name="recruitments">RECRUITMENTS</string>
+    <string name="learning_development"><![CDATA[LEARNING & DEVELOPMENT]]></string>
+</resources>

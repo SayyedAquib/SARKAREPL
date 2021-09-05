@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sarkarepl.sarkar_epl">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sarkar_epl">
+        <activity
+            android:name=".GENERATINGPLANT"
+            android:exported="true" />
+        <activity
+            android:name=".OXYGENINHEALTHCARE"
+            android:exported="true" />
+        <activity
+            android:name=".INDIANRAILWAYS"
+            android:exported="true" />
+        <activity
+            android:name=".TELECOM"
+            android:exported="true" />
+        <activity
+            android:name=".OILGAS"
+            android:exported="true" />
+        <activity
+            android:name=".ITSERVICE"
+            android:exported="true" />
+        <activity
+            android:name=".RECRUITMENTS"
+            android:exported="true" />
+        <activity
+            android:name=".LD"
+            android:exported="true" />
+        <activity
+            android:name=".HEALTHCARE"
+            android:exported="true" />
+        <activity
+            android:name=".OXYGENPLANT"
+            android:exported="true" />
+        <activity
+            android:name=".MEDICAL_STUFF"
+            android:exported="true" />
+        <activity
+            android:name=".PD"
+            android:exported="true" />
+        <activity
+            android:name=".CLIENTS"
+            android:exported="true" />
+        <activity
+            android:name=".TYPES_OF_SERVICES"
+            android:exported="true" />
+        <activity
+            android:name=".CONTACTUS"
+            android:exported="true" />
+        <activity
+            android:name=".WHOWEARE"
+            android:exported="true" />
+        <activity
+            android:name=".HOME"
+            android:exported="true" />
+        <activity
+            android:name=".CAREERS"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

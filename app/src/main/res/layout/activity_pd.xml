@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".PD">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/types_of_services"
+        android:fontFamily="serif"
+        android:textColor="#6EB23B"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/sepl_it_service"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        app:backgroundTint="#6EB23B"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/oil_and_gas"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        app:backgroundTint="#6EB23B"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/telecom"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        app:backgroundTint="#6EB23B"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/indian_railways"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        app:backgroundTint="#6EB23B"/>
+
+</LinearLayout>
